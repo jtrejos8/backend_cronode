@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "lala2021",
+    "database": "cronode",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "bccbb1e7ece797",
+    "password": "820c00e3",
+    "database": "heroku_ab5220be466bf9b",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
