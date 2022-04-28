@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+.item {
+  font-size: 13px;
+}
+.dropdown-item {
+  font-size: 12px;
+}
+html,
+body {
+  background: white;
+}
+.breadcrumb {
+  background-color: #f8f5f0;
+  border: 1px solid #dde0e2;
+}
+.custom-breadcrumb.breadcrumb-item {
+  font-size: 11px;
+}
+.custom-breadcrumb.breadcrumb-item a {
+  color: #93c54b;
+}
+.data-table-extensions-filter label.icon {
+  opacity: 0.5;
+}
